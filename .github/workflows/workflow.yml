@@ -1,4 +1,4 @@
-name: Update OISD-big.yaml
+name: Update OISD_big.yaml
 
 on:
   schedule:

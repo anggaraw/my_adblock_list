@@ -1,4 +1,4 @@
-name: Update easylist_adservers.yaml
+name: Update OISD_big.yaml
 
 on:
   schedule:
@@ -19,8 +19,8 @@ jobs:
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add easylist_adservers.yaml
-        git commit -m "Automatic update easylist_adservers.yaml"
+        git add OISD_big.yaml
+        git commit -m "Automatic update OISD_big.yaml"
     - name: Push changes
       run: |
         git push

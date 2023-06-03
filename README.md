@@ -4,7 +4,7 @@ trial automatic update rule adblock openclash
 Untuk menggunakan, edit `config.yaml` pada `/etc/openclash/config/config.yaml` seperti ini:
 ```
 rule-providers:
-  easylist_adservers:
+  OISD_big:
     type: http
     behavior: classical
     path: "./rule_provider/OISD_big.yaml"

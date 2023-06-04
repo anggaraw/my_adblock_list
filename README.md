@@ -10,7 +10,20 @@ rule-providers:
     path: "./rule_provider/OISD_big.yaml"
     url: https://raw.githubusercontent.com/anggaraw/my_adblock_list/main/OISD_big.yaml
     interval: 86400 # Update rules every 24 hours
-    
+  Phishing URL Blocklist (PhishTank and OpenPhish):
+    type: http
+    behavior: classical
+    path: "./rule_provider/Phishing URL Blocklist (PhishTank and OpenPhish).yaml"
+    url: https://raw.githubusercontent.com/anggaraw/my_adblock_list/main/Phishing URL Blocklist (PhishTank and OpenPhish).yaml
+    interval: 86400 # Update rules every 24 hours
+  Malicious URL Blocklist (URLHaus):
+    type: http
+    behavior: classical
+    path: "./rule_provider/Malicious URL Blocklist (URLHaus).yaml"
+    url: https://raw.githubusercontent.com/anggaraw/my_adblock_list/main/Malicious URL Blocklist (URLHaus).yaml
+    interval: 86400 # Update rules every 24 hours    
 rules:
 - RULE-SET,OISD_big,REJECT
+- RULE-SET,Phishing URL Blocklist (PhishTank and OpenPhish),REJECT
+- RULE-SET,Malicious URL Blocklist (URLHaus),REJECT
 ```

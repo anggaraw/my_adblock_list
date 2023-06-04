@@ -15,7 +15,7 @@
 # Homepage: https://gitlab.com/malware-filter/urlhaus-filter
 # License: https://gitlab.com/malware-filter/urlhaus-filter#license
 # Source: https://urlhaus.abuse.ch/api/
-payloud:
+payload:
   - DOMAIN-SUFFIX,00573.lap.detroitdragway.com
   - DOMAIN-SUFFIX,0243hfdnsafnz03y41b325red.81b3odf0d.fun
   - DOMAIN-SUFFIX,044d730.netsolhost.com
